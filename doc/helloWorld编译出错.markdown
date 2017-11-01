@@ -29,7 +29,7 @@ main.cpp:(.text+0x155)：对‘gluLookAt’未定义的引用
 main.cpp:(.text+0x19a)：对‘glutWireTeapot’未定义的引用
 collect2: error: ld returned 1 exit status
 ```
-
+//就没有满足 链接关系
 解决：g++ main.cpp -lglut -lGL -lGLU -o test
 
 
