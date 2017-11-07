@@ -88,6 +88,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/hds/workspace/cProject/GLTest/lesson3/Texture.cpp">
+			<Option target="GLTest"/>
+		</Unit>
+		<Unit filename="/home/hds/workspace/cProject/GLTest/lesson3/Texture.h">
+			<Option target="GLTest"/>
+		</Unit>
 		<Unit filename="/home/hds/workspace/cProject/GLTest/lesson_1/LessonOne.cpp">
 			<Option target="GLTest"/>
 		</Unit>
