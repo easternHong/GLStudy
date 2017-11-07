@@ -8,8 +8,13 @@
 // GLEW
 #define GLEW_STATIC
 // GLFW
+#define GL_GLEXT_PROTOTYPES
+
 #include <GLFW/glfw3.h>
 #include "iostream"
+
+
+
 
 class GLEW_Test {
 

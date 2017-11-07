@@ -54,7 +54,10 @@ GLfloat vertices[] = {
 };
 
 void drawTriangle() {
-    glDrawArrays(1, 2, 3);
+//    GLuint VBO;
+    std::cout << "gl_version" << GL_VERSION << std::endl;
+//    glGenBuffers(1, &VBO);
+    glGenerateMipmap(GL_TEXTURE_2D);
 }
 
 void key_callback(GLFWwindow *window, int key, int scancode, int action, int mode) {

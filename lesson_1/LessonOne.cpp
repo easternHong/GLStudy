@@ -50,10 +50,18 @@ void init() {
 }
 
 void display() {
+//    glClear(GL_COLOR_BUFFER_BIT);
+//    glColor3f(1.0, 0.5, 0);
+//    glutWireTeapot(2);
+////    glutFullScreen();//全屏
+//    glFlush();
     glClear(GL_COLOR_BUFFER_BIT);
-    glColor3f(1.0, 0.5, 0);
-    glutWireTeapot(2);
-//    glutFullScreen();//全屏
+    glBegin(GL_POLYGON);
+    glVertex3d(-0.5, -0.5, 0.5); //点P1,左下角
+    glVertex3d(-0.5, 0.5, 0.5);  //点P2,左上角
+    glVertex3d(0.5, 0.5, 0.5);   //点P3,右上角
+    glVertex3d(0.5, -0.5, 0.5); //点P4,右下角
+    glEnd();
     glFlush();
 }
 
