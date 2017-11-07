@@ -12,8 +12,327 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290ab44b-b5f3-4d08-a40f-9fcce5f22cae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/Texture.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/Texture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello_window/HelloWindow.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello_window/HelloWindow.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/GL/glew.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/GL/glxew.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/GL/wglew.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/GLFW/glfw3.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/GLFW/glfw3native.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/KHR/khrplatform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/SOIL.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/SOIL.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/Compiler/poppack1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/Compiler/pstdint.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/Compiler/pushpack1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/DefaultLogger.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/Exporter.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/IOStream.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/IOSystem.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/Importer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/LogStream.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/Logger.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/NullLogger.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/ProgressHandler.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/ai_assert.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/anim.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/camera.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/cexport.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/cfileio.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/cimport.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/color4.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/color4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/defs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/importerdesc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/light.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/material.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/material.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/matrix3x3.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/matrix3x3.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/matrix4x4.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/matrix4x4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/mesh.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/metadata.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/postprocess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/quaternion.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/quaternion.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/scene.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/texture.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/types.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/vector2.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/vector2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/vector3.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/vector3.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/assimp/version.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glad/glad.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/common.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/_features.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/_fixes.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/_noise.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/_swizzle.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/_swizzle_func.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/_vectorize.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/dummy.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_common.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_common.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_exponential.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_exponential.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_geometric.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_geometric.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_integer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_integer.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_matrix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_matrix.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_packing.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_packing.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_trigonometric.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_trigonometric.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_vector_relational.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/func_vector_relational.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/glm.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_common.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_common.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_exponential.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_exponential.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_geometric.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_geometric.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_integer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_integer.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_matrix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_matrix.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_trigonometric.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_trigonometric.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_vector_relational.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/intrinsic_vector_relational.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/precision.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/setup.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_float.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_gentype.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_gentype.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_half.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_half.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_int.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat2x2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat2x2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat2x3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat2x3.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat2x4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat2x4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat3x2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat3x2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat3x3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat3x3.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat3x4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat3x4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat4x2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat4x2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat4x3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat4x3.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat4x4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_mat4x4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec1.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec1.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec3.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec4_avx.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec4_avx2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/detail/type_vec4_sse2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/exponential.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/ext.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/fwd.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/geometric.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/glm.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/bitfield.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/bitfield.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/color_space.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/color_space.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/constants.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/constants.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/epsilon.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/epsilon.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/integer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/integer.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/matrix_access.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/matrix_access.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/matrix_integer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/matrix_inverse.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/matrix_inverse.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/matrix_transform.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/matrix_transform.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/noise.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/noise.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/packing.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/packing.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/quaternion.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/quaternion.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/random.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/random.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/reciprocal.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/reciprocal.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/round.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/round.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/type_precision.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/type_precision.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/type_ptr.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/type_ptr.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/ulp.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/ulp.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/vec1.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtc/vec1.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/associated_min_max.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/associated_min_max.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/bit.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/bit.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/closest_point.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/closest_point.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/color_space.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/color_space.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/color_space_YCoCg.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/color_space_YCoCg.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/common.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/common.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/compatibility.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/compatibility.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/component_wise.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/component_wise.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/dual_quaternion.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/dual_quaternion.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/euler_angles.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/euler_angles.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/extend.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/extend.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/extented_min_max.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/extented_min_max.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/fast_exponential.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/fast_exponential.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/fast_square_root.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/fast_square_root.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/fast_trigonometry.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/fast_trigonometry.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/gradient_paint.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/gradient_paint.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/handed_coordinate_space.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/handed_coordinate_space.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/hash.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/hash.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/integer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/integer.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/intersect.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/intersect.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/io.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/io.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/log_base.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/log_base.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_cross_product.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_cross_product.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_decompose.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_decompose.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_interpolation.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_interpolation.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_major_storage.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_major_storage.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_operation.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_operation.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_query.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_query.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_transform_2d.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/matrix_transform_2d.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/mixed_product.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/mixed_product.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/norm.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/norm.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/normal.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/normal.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/normalize_dot.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/normalize_dot.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/number_precision.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/number_precision.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/optimum_pow.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/optimum_pow.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/orthonormalize.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/orthonormalize.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/perpendicular.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/perpendicular.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/polar_coordinates.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/polar_coordinates.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/projection.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/projection.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/quaternion.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/quaternion.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/range.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/raw_data.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/raw_data.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/rotate_normalized_axis.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/rotate_normalized_axis.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/rotate_vector.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/rotate_vector.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/scalar_multiplication.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/scalar_relational.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/scalar_relational.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/simd_mat4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/simd_mat4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/simd_quat.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/simd_quat.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/simd_vec4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/simd_vec4.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/spline.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/spline.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/std_based_type.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/std_based_type.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/string_cast.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/string_cast.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/transform.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/transform.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/transform2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/transform2.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/type_aligned.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/type_aligned.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/vector_angle.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/vector_angle.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/vector_query.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/vector_query.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/wrap.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/gtx/wrap.inl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/integer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat2x2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat2x3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat2x4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat3x2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat3x3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat3x4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat4x2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat4x3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/mat4x4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/matrix.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/packing.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/trigonometric.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/vec2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/vec3.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/vec4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/glm/vector_relational.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/image_DXT.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/image_DXT.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/image_helper.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/image_helper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/learnopengl/camera.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/learnopengl/filesystem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/learnopengl/mesh.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/learnopengl/model.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/learnopengl/shader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/learnopengl/shader_m.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/learnopengl/shader_s.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/stb_image.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/stb_image_aug.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/stb_image_aug.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GLTest" afterPath="$PROJECT_DIR$/GLTest" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
@@ -31,13 +350,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Texture.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson3/Texture.cpp">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="347">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWindow.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello_window/HelloWindow.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="e#67#85#0" expanded="true" />
+                <element signature="e#116#140#0" expanded="true" />
+                <element signature="e#1099#1206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +389,9 @@
       <find>GL_VERSION_4_1</find>
       <find>glGenBuffers</find>
       <find>glGenerateMipmap</find>
+      <find>incl</find>
+      <find>gladLoadGLLoader</find>
+      <find>glCreateShader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,9 +408,12 @@
         <option value="$PROJECT_DIR$/lesson_2/GLEW_Test.h" />
         <option value="$PROJECT_DIR$/lesson_1/LessonOne.cpp" />
         <option value="$PROJECT_DIR$/lesson_2/GLEW_Test.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/lesson3/Texture.h" />
         <option value="$PROJECT_DIR$/lesson3/Texture.cpp" />
+        <option value="$PROJECT_DIR$/includes/glad/glad.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/hello_window/HelloWindow.h" />
+        <option value="$PROJECT_DIR$/hello_window/HelloWindow.cpp" />
       </list>
     </option>
   </component>
@@ -89,10 +425,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="206" />
-    <option name="y" value="161" />
-    <option name="width" value="1291" />
-    <option name="height" value="714" />
+    <option name="x" value="217" />
+    <option name="y" value="290" />
+    <option name="width" value="1289" />
+    <option name="height" value="678" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,6 +453,11 @@
               <item name="GLTest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="GLTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GLTest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hello_window" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,11 +469,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/doc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,26 +523,26 @@
       <workItem from="1509591536932" duration="4489000" />
       <workItem from="1509616302491" duration="1429000" />
       <workItem from="1510019390425" duration="2411000" />
-      <workItem from="1510040900656" duration="80000" />
+      <workItem from="1510040900656" duration="5362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23127000" />
+    <option name="totallyTimeSpent" value="28409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="161" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18944845" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08713029" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36557376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4622951" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.447541" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.447541" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -216,22 +557,22 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36557376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4622951" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.447541" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18944845" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08713029" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -248,54 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson3/Texture.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#67#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/GLEW_Test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/LessonOne.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1586">
-          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/GLEW_Test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1534">
-          <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/LessonOne.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1664">
-          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/GL/gl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24388">
-          <caret line="938" column="22" lean-forward="false" selection-start-line="938" selection-start-column="22" selection-end-line="938" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -308,6 +601,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
           <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#37#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -330,6 +626,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="e#37#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -344,6 +643,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -351,6 +653,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -366,6 +671,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,7 +698,7 @@
         <state relative-caret-position="572">
           <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
-            <element signature="e#92#110#0" expanded="true" />
+            <element signature="e#92#110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -418,13 +726,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/GL/glfw.h" />
     <entry file="file://$PROJECT_DIR$/doc/helloWorld编译出错.markdown">
       <provider selected="true" editor-type-id="text-editor">
@@ -489,25 +790,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/GL/gl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24388">
-          <caret line="938" column="22" lean-forward="false" selection-start-line="938" selection-start-column="22" selection-end-line="938" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/GLFW/glfw3.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="873" column="12" lean-forward="false" selection-start-line="873" selection-start-column="12" selection-end-line="873" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/4.9/iostream">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1577">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -536,6 +823,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#37#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,7 +834,7 @@
         <state relative-caret-position="193">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#92#110#0" expanded="true" />
+            <element signature="e#92#110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -553,14 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/GL/glext.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="1262" column="20" lean-forward="false" selection-start-line="1262" selection-start-column="20" selection-end-line="1262" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_2/GLEW_Test.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -605,9 +880,113 @@
     <entry file="file://$PROJECT_DIR$/lesson3/Texture.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding>
-            <element signature="e#67#85#0" expanded="true" />
+            <element signature="e#67#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/GL/glew.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/glad/glad.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding>
+            <element signature="e#599#683#0" expanded="false" />
+            <element signature="e#804#889#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/GLFW/glfw3native.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1248">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/GLFW/glfw3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2184">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/glm/detail/_features.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="282" column="0" lean-forward="true" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+          <folding>
+            <element signature="e#9853#9935#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_window/HelloWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/GLFW/glfw3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1819" column="12" lean-forward="false" selection-start-line="1819" selection-start-column="12" selection-end-line="1819" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/GL/glext.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="749" column="20" lean-forward="false" selection-start-line="749" selection-start-column="20" selection-end-line="749" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/GL/gl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="1150" column="22" lean-forward="false" selection-start-line="1150" selection-start-column="22" selection-end-line="1150" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_window/HelloWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#116#140#0" expanded="true" />
+            <element signature="e#1099#1206#0" expanded="true" />
           </folding>
         </state>
       </provider>

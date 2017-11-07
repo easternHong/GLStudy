@@ -1,6 +1,8 @@
 
 
-#include "lesson3/Texture.h"
+//#include "lesson3/Texture.h"
+
+#include "hello_window/HelloWindow.h"
 
 int main(int argc, char *argv[]) {
 
@@ -8,6 +10,8 @@ int main(int argc, char *argv[]) {
 //    lessonOne.run(argc, argv);
 //    GLEW_Test test;
 //    test.run();
-    Texture::Texture texture;
-    texture.createTexture();
+//    Texture::Texture texture;
+//    texture.createTexture();
+    HelloWindow helloWindow;
+    helloWindow.run();
 }
