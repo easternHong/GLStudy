@@ -3,10 +3,14 @@
 //
 
 #include "GLEW_Test.h"
+#include <ctime>
+#include <chrono>
 
 void key_callback(GLFWwindow *window, int key, int scancode, int action, int mode);
 
 void drawTriangle();
+
+void calculateFPS();
 
 /**
  * 需要链接 -lglfw
@@ -43,8 +47,24 @@ void GLEW_Test::run() {
 //        ...
         // 交换缓冲
         glfwSwapBuffers(window);
+        calculateFPS();
     }
     glfwTerminate();
+}
+
+int fps = 0;
+long time_count = 0;
+
+void calculateFPS() {
+    std::chrono::milliseconds ms = std::chrono::duration_cast<std::chrono::milliseconds>(
+            std::chrono::system_clock::now().time_since_epoch());
+    long tmp = ms.count() / 1000;
+    if (tmp > time_count) {
+        time_count = tmp;
+        std::cout << ".." << fps << std::endl;
+        fps = 0;
+    }
+    fps++;
 }
 
 GLfloat vertices[] = {
@@ -55,7 +75,7 @@ GLfloat vertices[] = {
 
 void drawTriangle() {
 //    GLuint VBO;
-    std::cout << "gl_version" << GL_VERSION << std::endl;
+//    std::cout << "gl_version" << GL_VERSION << std::endl;
 //    glGenBuffers(1, &VBO);
     glGenerateMipmap(GL_TEXTURE_2D);
 }
